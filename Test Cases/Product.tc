@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data Master
+- Product</description>
+   <name>Product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7732e21-3932-4c6f-8d49-af475708b9de</testCaseGuid>
+</TestCaseEntity>
