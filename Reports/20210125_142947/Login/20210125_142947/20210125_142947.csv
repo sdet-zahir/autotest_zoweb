@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 87.0.4280.141,,,2021-01-25 14:29:58,2021-01-25 14:30:41,43.692s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 87.0.4280.141,,,2021-01-25 14:30:01,2021-01-25 14:30:41,40.253s,PASSED
+"openBrowser(""https://go.zahironline.com"")",Chrome 87.0.4280.141,,,2021-01-25 14:30:03,2021-01-25 14:30:17,14.292s,PASSED
+"setText(findTestObject(""Login/Page_Zahir Online/input_Sign In_username""), ""sdet.zahir@gmail.com"")",Chrome 87.0.4280.141,,,2021-01-25 14:30:17,2021-01-25 14:30:20,2.987s,PASSED
+"setEncryptedText(findTestObject(""Login/Page_Zahir Online/input_Sign In_password""), ""1D7vslVqkzGtL7kcg2RSrA=="")",Chrome 87.0.4280.141,,,2021-01-25 14:30:20,2021-01-25 14:30:21,1.307s,PASSED
+"click(findTestObject(""Login/Page_Zahir Online/button_Sign In""))",Chrome 87.0.4280.141,,,2021-01-25 14:30:21,2021-01-25 14:30:22,0.667s,PASSED
+"setText(findTestObject(""Login/Page_Zahir Online  List Company/input_Choose Company_q""), ""SDET_TEST"")",Chrome 87.0.4280.141,,,2021-01-25 14:30:22,2021-01-25 14:30:27,5.525s,PASSED
+"doubleClick(findTestObject(""Login/Page_Zahir Online  List Company/div_SDET_TEST""))",Chrome 87.0.4280.141,,,2021-01-25 14:30:27,2021-01-25 14:30:28,0.935s,PASSED
+"click(findTestObject(""Login/Page_Zahir Online  Dashboard/button_account_circle""))",Chrome 87.0.4280.141,,,2021-01-25 14:30:28,2021-01-25 14:30:38,10.225s,PASSED
+"click(findTestObject(""Login/Page_Zahir Online  Dashboard/p_Logout""))",Chrome 87.0.4280.141,,,2021-01-25 14:30:38,2021-01-25 14:30:40,1.374s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2021-01-25 14:30:40,2021-01-25 14:30:41,1.519s,PASSED

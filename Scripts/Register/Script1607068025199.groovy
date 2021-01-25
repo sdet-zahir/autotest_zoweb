@@ -22,19 +22,19 @@ WebUI.navigateToUrl('https://go.zahironline.com/auth')
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Zahir Online/a_Sign Up'))
 
-WebUI.setText(findTestObject('Object Repository/Registration/Page_Zahir Online  Signup/input_Create Account_email'), 'mailnyatori@mailinator.com')
+WebUI.setText(findTestObject('Object Repository/Registration/Page_Zahir Online  Signup/input_Create Account_email'), 'tesregisterzoweb@mailinator.com')
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Zahir Online  Signup/button_Create Account'))
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Zahir Online  Complete Profile/input_Phone_full_name'), 
-    'mailnyatori')
+    'tesregisterzoweb')
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Zahir Online  Complete Profile/div_Phone_selected-flag'))
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Zahir Online  Complete Profile/li_Indonesia62'))
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Zahir Online  Complete Profile/input_Phone_material-phone-numer-field colo_4551fa'), 
-    '+62 812211122311')
+    '+62 812266122311')
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Zahir Online  Complete Profile/div_Select Your Occupations'))
 
@@ -46,7 +46,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Registration/Page_Zahir
 WebUI.click(findTestObject('Object Repository/Registration/Page_Zahir Online  Complete Profile/button_Create Account'))
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Zahir Online  Create Company/input_Tell us about your business_name'), 
-    'company-mailnyatori')
+    'company-tesregisterzoweb')
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Zahir Online  Create Company/div_Choose Bussiness Type'))
 
@@ -59,9 +59,4 @@ WebUI.click(findTestObject('Object Repository/Registration/Page_Zahir Online  Cr
 WebUI.click(findTestObject('Object Repository/Registration/Page_Zahir Online  Signup Success/button_GET STARTED'))
 
 WebUI.closeBrowser()
-//WebUI.click(findTestObject('Registration/Page_Zahir Online  Gettingstarted/p_Ill contact later'))
-//
-//WebUI.click(findTestObject('Object Repository/Registration/Page_Zahir Online  Dashboard/button_account_circle'))
-//
-//WebUI.click(findTestObject('Object Repository/Registration/Page_Zahir Online  Dashboard/li_Logout'))
 

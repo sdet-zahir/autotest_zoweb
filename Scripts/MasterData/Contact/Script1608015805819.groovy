@@ -40,7 +40,7 @@ WebUI.click(findTestObject('Object Repository/Master Data/Page_Zahir Online  Add
 
 WebUI.click(findTestObject('Object Repository/Master Data/Page_Zahir Online  Add Contact/input_Customer_jss291'))
 
-WebUI.click(findTestObject('Object Repository/Master Data/Page_Zahir Online  Add Contact/button_Save'))
+WebUI.click(findTestObject('Object Repository/Master Data/Page_Zahir Online  Add Contact/button_Save')) 
 
 WebUI.click(findTestObject('Object Repository/Master Data/Page_Zahir Online  Add Contact/button_Cancel'))
 

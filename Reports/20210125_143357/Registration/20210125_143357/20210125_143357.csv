@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Registration,Chrome 87.0.4280.141,,,2021-01-25 14:34:08,2021-01-25 14:35:03,54.780s,PASSED
+,,,,,,,
+Test Cases/Register,Chrome 87.0.4280.141,,,2021-01-25 14:34:10,2021-01-25 14:35:03,52.551s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-01-25 14:34:11,2021-01-25 14:34:16,5.619s,PASSED
+"navigateToUrl(""https://go.zahironline.com/auth"")",Chrome 87.0.4280.141,,,2021-01-25 14:34:16,2021-01-25 14:34:23,6.111s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online/a_Sign Up""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:23,2021-01-25 14:34:25,2.634s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_Zahir Online  Signup/input_Create Account_email""), ""tesregisterzoweb@mailinator.com"")",Chrome 87.0.4280.141,,,2021-01-25 14:34:25,2021-01-25 14:34:27,2.333s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online  Signup/button_Create Account""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:27,2021-01-25 14:34:28,0.567s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_Zahir Online  Complete Profile/input_Phone_full_name""), ""tesregisterzoweb"")",Chrome 87.0.4280.141,,,2021-01-25 14:34:28,2021-01-25 14:34:31,2.972s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online  Complete Profile/div_Phone_selected-flag""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:31,2021-01-25 14:34:32,0.717s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online  Complete Profile/li_Indonesia62""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:32,2021-01-25 14:34:33,1.256s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_Zahir Online  Complete Profile/input_Phone_material-phone-numer-field colo_4551fa""), ""+62 812266122311"")",Chrome 87.0.4280.141,,,2021-01-25 14:34:33,2021-01-25 14:34:35,1.734s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online  Complete Profile/div_Select Your Occupations""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:35,2021-01-25 14:34:35,0.670s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online  Complete Profile/div_Entrepreneur (Wiraswasta)""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:35,2021-01-25 14:34:36,0.928s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_Zahir Online  Complete Profile/input_Entrepreneur (Wiraswasta)_password""), ""/w1kD+5vMvA7nrbALpT4trkwgmu0w8Bh"")",Chrome 87.0.4280.141,,,2021-01-25 14:34:36,2021-01-25 14:34:37,0.969s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online  Complete Profile/button_Create Account""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:37,2021-01-25 14:34:38,0.456s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_Zahir Online  Create Company/input_Tell us about your business_name""), ""company-tesregisterzoweb"")",Chrome 87.0.4280.141,,,2021-01-25 14:34:38,2021-01-25 14:34:42,3.847s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online  Create Company/div_Choose Bussiness Type""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:42,2021-01-25 14:34:42,0.428s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online  Create Company/div_CafeCoffee Shop""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:42,2021-01-25 14:34:43,0.894s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online  Create Company/input_Use Referral Code_jss118""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:43,2021-01-25 14:34:44,0.570s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online  Create Company/button_Save""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:44,2021-01-25 14:34:44,0.599s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Zahir Online  Signup Success/button_GET STARTED""))",Chrome 87.0.4280.141,,,2021-01-25 14:34:44,2021-01-25 14:35:01,16.521s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2021-01-25 14:35:01,2021-01-25 14:35:03,2.109s,PASSED
